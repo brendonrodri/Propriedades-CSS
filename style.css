@@ -1,0 +1,50 @@
+
+/*declarando um bloco de código css via nome de tag */
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+    color: darkred;
+    text-align: center;
+}
+
+
+/*declarando um bloco de código css via classe*/
+.container{
+    /*define a largura da nossa caixa */
+    /*vw == viewport width. Ele devide a tela em 100 pedaços e a cada 1 uma unidade, a gente uma parte da tela é desenha. Esse tipo de medida se adapta ao tamanho da tela, independente do dispositivo */
+    width: 50vw;
+    height: 400px;
+    background-color: blue;
+    /* Define uma margem do lado de fora da caixa*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    /*Define um espaçamento interno na nossa caixa */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    padding: 10px;
+    
+}
+.texto-containers{
+    /* Define a familia ou o tipo de fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /*Define o tamanho da fonte, pode ser declarado com pixel, rem, em, pt*/
+    font-size: 1.2rem;
+    /* a rem ou em equivalem a 16px. ex: 2rem == 32px */
+    /*Define o peso ou espessura do fonte*/
+    font-weight: 400 ;
+    /*Define o estilo da fonte */
+    font-style: normal;
+    /*Define o alinhamento do texto*/
+    text-align: justify;
+    /*Define a cor da fonte */
+    color:darkred;
+}
